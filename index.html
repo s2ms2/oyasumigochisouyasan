@@ -152,9 +152,9 @@
 
 <!-- ボタン -->
 <div class="controls">
-  <button class="btn" id="restart">最初から</button>
-  <button class="btn" id="prev">戻る</button>
-  <button class="btn" id="next">進む</button>
+  <button class="btn" id="restart">⏪</button>
+  <button class="btn" id="prev">⬅️</button>
+  <button class="btn" id="next">➡️</button>
 </div>
 
 <audio id="bgm" src="bgm.mp3" loop></audio>
@@ -202,11 +202,11 @@
   bgmToggle.addEventListener("click", () => {
     if (!bgmPlaying) {
       bgm.play();
-      bgmToggle.textContent = "BGM ⏸";
+      bgmToggle.textContent = "BGM ⏸️";
       bgmPlaying = true;
     } else {
       bgm.pause();
-      bgmToggle.textContent = "BGM ▶︎";
+      bgmToggle.textContent = "BGM ▶️";
       bgmPlaying = false;
     }
   });
