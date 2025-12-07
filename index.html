@@ -205,11 +205,11 @@
   bgmToggle.addEventListener("click", () => {
     if (!bgmPlaying) {
       bgm.play();
-      bgmToggle.textContent = "BGM ⏯";
+      bgmToggle.textContent = "BGM OFF";
       bgmPlaying = true;
     } else {
       bgm.pause();
-      bgmToggle.textContent = "BGM ▶︎";
+      bgmToggle.textContent = "BGM ON";
       bgmPlaying = false;
     }
   });
